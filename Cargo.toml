@@ -1,0 +1,10 @@
+[package]
+name = "evm-guardian"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+alloy = { git= "https://github.com/alloy-rs/alloy", features = ["full"]}
+tokio = { version = "1.43.0", features = ["full"] }
+eyre = "0.6"
+futures = "0.3"
