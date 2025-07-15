@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-alloy = { version = "1.0.9", features = ["full"]}
+alloy = { version = "1.0.22", features = ["full"]}
 tokio = { version = "1.46.1", features = ["full"] }
 eyre = "0.6"
 futures = "0.3"
